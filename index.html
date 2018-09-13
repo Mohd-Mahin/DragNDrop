@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Draggable UI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="jq.css"/>
+        <script src="jq_module.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://resources/demos/style.css">
+    </head>    
+    <body class="body_design">
+        <div class="container">
+            <div id="dialog" title="Basic dialog">
+                <p>This is an animated dialog which is useful for displaying information.</p>
+            </div>
+            <div class="top_div dimension" id="draggable_top">
+                <h4 class="bold_heading">Drag Me</h4>    
+            </div>      
+            <div id="main_container_upper" class="main_container_middle">
+                <div class="upper_left dimension" id="draggable_left">
+                    <h4 class="bold_heading">Drag Me</h4>
+                </div> 
+                <div class="upper_right dimension" id="draggable_right">
+                    <h4 class="bold_heading">Drag Me</h4>
+                </div>
+            </div>
+            <div class="bottom_div dimension" id="draggable_bottom">
+                <h4 class="bold_heading">Drag Me</h4>
+            </div>
+            <div class="drop_container ui-droppable" id="drop_container">DROP HERE</div>
+        </div>
+    </body>
+</html>
