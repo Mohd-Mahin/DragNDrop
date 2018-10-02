@@ -6,3 +6,8 @@ Drag them and drop in center. If not dropped at center and tried to drop else wh
 A dialog box with notification appears.
 Close the dialog box.
 Draggable item will move back to inital position.
+
+
+You can directly check it out by visiting the below link.
+
+https://cdn.rawgit.com/Mohd-Mahin/DragNDrop/master/index.html
